@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { LoginPage } from '../pages/loginPage';
+import { LoginPage } from '../pages/LoginPage';
 import { ProductsPage } from '../pages/ProductsPage';
 
 test('Login exitoso en SauceDemo con POM', async ({ page }) => {
